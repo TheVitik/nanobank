@@ -128,13 +128,4 @@ public abstract class Validator<T> {
         }
         return this;
     }
-
-    public Validator<T> unique(String table, String column) {
-        return this;
-    }
-
-    public Validator<T> exists(String table, String column) {
-
-        return this;
-    }
 }
